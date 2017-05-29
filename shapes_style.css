@@ -1,0 +1,28 @@
+/*CSS reset*/
+*{
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+div{
+  height: 140px;
+  width: 140px;
+  background: blue;
+}
+#circle{
+  clip-path: circle();
+}
+#uptriangle{
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+#pacman{
+  clip-path: circle();
+}
+#pacmanMouth{
+  background: white;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  clip-path: polygon(100% 0%, 50% 50%, 100% 100%)
+}
